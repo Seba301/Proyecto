@@ -302,7 +302,7 @@ input[type="text"]{
   </div>
 </form>
 
-
+<a href="/cliente_nuevo.php"><button style="position:absolute; left:100px; top:900px;" class="button2 button3">Registrar</button></a>
 <a href="/cliente_nuevo.php"><button style="position:absolute; left:100px; top:900px;" class="button2 button3">Volver</button></a>
 </body>
 </html>
