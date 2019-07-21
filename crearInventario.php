@@ -16,7 +16,7 @@ try {
     $precio_unitario = $_REQUEST["precio_unitario"];
     // consulta en sql
     $sql = "INSERT INTO inventario (nombre, precio_unitario, cantidad)
-    VALUES ("$nombre", "$precio_unitario", "$cantidad");";
+    VALUES (\"$nombre\", \"$precio_unitario\", \"$cantidad\");";
 
     // ejecución de la consulta
     $conn->exec($sql);
