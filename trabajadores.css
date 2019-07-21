@@ -1,0 +1,98 @@
+
+
+  .navbar {
+    overflow: hidden;
+    background-color: #000066;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text: verdana;
+  }
+  
+  .navbar a:hover {
+    background: #000066;
+    color: black;
+  }
+    .avatar{
+     float:left;
+     width: 60px;
+     height: 60px; 
+     }
+
+     body > table{
+      width: 100%;
+      
+  }
+  
+  table{
+      border-collapse: collapse;
+  }
+  table.list{
+      width:100%;
+  }
+  
+  td, th {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+      color: black;
+  }
+  tr:nth-child(even),table.list thead>tr {
+      background-color: #000066;
+  }
+  
+  input[type=text], Select, input[type=number], input[type=email], input[type=checkbox], input[type=date] {
+      width: 20%;
+      padding: 3px 3px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #000066;
+      border-radius: 4px;
+      box-sizing: border-box;
+     background-color: #fff;
+     margin-bottom: 10px
+  }
+  
+  input[type=submit]{
+      width: 15%;
+      background-color:#000066;
+      color: #f2f2f2;
+      padding: 5px 10px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+     
+  }
+  
+  form div.form-action-buttons{
+      text-align: center;
+  }
+  
+ 
+  
+  label.validation-error{
+      color:   red;
+      margin-left: 5px;
+  }
+  
+  .hide{
+      display:none;
+  }
+    
+  .tabla{
+      margin-top:4px;
+     margin-bottom: 4px;
+
+  }
